@@ -126,3 +126,106 @@ footer {
   color: #a55d1f;
   font-weight: bold;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+}
+
+table th,
+table td {
+  border: 1px solid #c9a978;
+  padding: 0.8rem 1rem;
+  text-align: left;
+}
+
+table thead {
+  background-color: #2f241d;
+  color: #f7efe8;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f3e4d1;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+fieldset {
+  border: 1px solid #d9b887;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  background-color: #fffdf8;
+}
+
+legend {
+  padding: 0 0.5rem;
+  font-weight: 700;
+  color: #7a4728;
+}
+
+.field-block {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+}
+
+.field {
+  font: inherit;
+  width: min(100%, 360px);
+  padding: 0.8rem 1rem;
+  border: 1px solid #b68a53;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.choice-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0.8rem 0;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.field:focus {
+  outline: 3px solid #a55d1f;
+  outline-offset: 2px;
+}
+
+input:required + label,
+textarea:required + label,
+input:required {
+  box-shadow: none;
+}
+
+input:required,
+textarea:required,
+select:required {
+  border-color: #a55d1f;
+}
+
+input,
+textarea,
+select,
+button {
+  accent-color: #a55d1f;
+}
+
+button {
+  background-color: #2f241d;
+  color: #f7efe8;
+  border: none;
+  border-radius: 6px;
+  padding: 0.9rem 1.4rem;
+  font: inherit;
+  cursor: pointer;
+}
