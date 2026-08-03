@@ -14,47 +14,92 @@
   </head>
   <body>
     <header>
-      <a class="brand" href="index.html">Maison Sarah</a>
-      <nav aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-      </nav>
+      <div class="container header-bar">
+        <a class="brand" href="index.html">Maison Sarah</a>
+        <nav aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="order.html">Order</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>Our Menu</h1>
-      <p class="tagline">
-        Browse a few of the favorites that fill our ovens each morning.
-      </p>
+      <div class="container">
+        <h1>Our Menu</h1>
+        <p class="tagline">
+          Browse a few of the favorites that fill our ovens each morning.
+        </p>
 
-      <ul>
-        <li>
-          <strong>Breakfast pastries</strong>
-          <ul>
-            <li>Butter croissant <span class="price">$4</span></li>
-            <li>Almond twist <span class="price">$5</span></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Breads</strong>
-          <ul>
-            <li>Country sourdough <span class="price">$7</span></li>
-            <li>Rosemary focaccia <span class="price">$6</span></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Seasonal treats</strong>
-          <ul>
-            <li>Apple tart <span class="price">$8</span></li>
-            <li>Chocolate éclair <span class="price">$5</span></li>
-          </ul>
-        </li>
-      </ul>
+        <section>
+          <h2>Weekend specials</h2>
+          <div class="card-row">
+            <article class="card">
+              <img
+                src="images/maison-sarah-bakery.svg"
+                alt="A close-up of a buttery croissant arranged beside a cup of coffee."
+              />
+              <h3>Morning Croissant</h3>
+              <p>
+                Buttery layers with a golden finish.
+                <span class="price">$6</span>
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="images/maison-sarah-bakery.svg"
+                alt="A loaf of rustic sourdough bread sitting on a wooden board."
+              />
+              <h3>Rustic Sourdough</h3>
+              <p>
+                Crusty loaf baked with a slow fermentation.
+                <span class="price">$8</span>
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="images/maison-sarah-bakery.svg"
+                alt="A fruit tart with glossy glaze and fresh berries on top."
+              />
+              <h3>Berry Tart</h3>
+              <p>
+                Flaky pastry filled with cream and fruit.
+                <span class="price">$7</span>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <ul>
+          <li>
+            <strong>Breakfast pastries</strong>
+            <ul>
+              <li>Butter croissant <span class="price">$4</span></li>
+              <li>Almond twist <span class="price">$5</span></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Breads</strong>
+            <ul>
+              <li>Country sourdough <span class="price">$7</span></li>
+              <li>Rosemary focaccia <span class="price">$6</span></li>
+            </ul>
+          </li>
+          <li>
+            <strong>Seasonal treats</strong>
+            <ul>
+              <li>Apple tart <span class="price">$8</span></li>
+              <li>Chocolate éclair <span class="price">$5</span></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </main>
 
     <footer>
-      <p>© 2026 Maison Sarah</p>
+      <div class="container">
+        <p>© 2026 Maison Sarah</p>
+      </div>
     </footer>
   </body>
 </html>
