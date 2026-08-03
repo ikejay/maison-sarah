@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7efe8;
+  color: #3b2a1f;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #2f241d;
+  color: #f7efe8;
+  padding: 1rem 2rem;
+}
+
+h1,
+h2 {
+  color: #7a4728;
+}
+
+nav a {
+  color: #f7efe8;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.brand {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f2c58d;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.tagline {
+  font-style: italic;
+  color: #6a4a2f;
+}
+
+.price {
+  color: #a55d1f;
+  font-weight: bold;
+}
