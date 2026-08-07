@@ -28,9 +28,93 @@
       <div class="container">
         <h1>Order Ahead</h1>
         <p>
-          Our pre-order form is coming soon, but you can still stop by the
-          bakery or call ahead for special requests.
+          Please complete the form below to pre-order your favorites for pickup.
         </p>
+
+        <form>
+          <fieldset>
+            <legend>Who is picking up</legend>
+            <label class="field-block" for="name">Name</label>
+            <input
+              class="field"
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+
+            <label class="field-block" for="email">Email</label>
+            <input
+              class="field"
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Pickup day</legend>
+            <div class="choice-row">
+              <label class="choice">
+                <input
+                  type="radio"
+                  name="pickup-day"
+                  value="Saturday"
+                  checked
+                />
+                Saturday
+              </label>
+              <label class="choice">
+                <input type="radio" name="pickup-day" value="Sunday" />
+                Sunday
+              </label>
+            </div>
+
+            <label class="field-block" for="pickup-time">Pickup time</label>
+            <select class="field" id="pickup-time" name="pickup-time">
+              <option value="8:00">8:00 AM</option>
+              <option value="9:00">9:00 AM</option>
+              <option value="10:00">10:00 AM</option>
+              <option value="11:00">11:00 AM</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your order</legend>
+            <div class="choice-row">
+              <label class="choice">
+                <input type="checkbox" name="order" value="Butter croissant" />
+                Butter croissant
+              </label>
+              <label class="choice">
+                <input type="checkbox" name="order" value="Almond twist" />
+                Almond twist
+              </label>
+              <label class="choice">
+                <input type="checkbox" name="order" value="Country sourdough" />
+                Country sourdough
+              </label>
+              <label class="choice">
+                <input type="checkbox" name="order" value="Berry tart" />
+                Berry tart
+              </label>
+            </div>
+
+            <label class="field-block" for="notes">Notes</label>
+            <textarea
+              class="field"
+              id="notes"
+              name="notes"
+              rows="4"
+              placeholder="Add any notes for your order"
+            ></textarea>
+          </fieldset>
+
+          <button type="submit">Place pre-order</button>
+        </form>
       </div>
     </main>
 
